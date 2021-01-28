@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25b68965-83fa-461e-9d0e-e2fa9e9e65f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/timeline.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mtbc2TL78EPa4W1TPyEH3bP7HM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25b68965-83fa-461e-9d0e-e2fa9e9e65f6" name="Default Changelist" comment="" />
+      <created>1610315910007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610315910007</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Commit 4 - changed background">
+      <created>1610318216072</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610318216072</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit 4 - changed background">
+      <created>1610401260548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610401260548</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit 4 - changed background">
+      <created>1610402059397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610402059397</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit 4 - changed background">
+      <created>1610402117421</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610402117421</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit 4 - changed background" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 4 - changed background" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="573" y="86" key="CommitChangelistDialog2" timestamp="1610402117115">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="573" y="86" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1610402117115" />
+    <state x="626" y="143" width="604" height="735" key="find.popup" timestamp="1610401914264">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="626" y="143" width="604" height="735" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1610401914264" />
+    <state x="661" y="237" key="search.everywhere.popup" timestamp="1610320841713">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="661" y="237" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1610320841713" />
+  </component>
+</project>
