@@ -6,6 +6,29 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script>
+		// define the callAPI function that takes a first name and last name as parameters
+		var callAPI = (fName, fEmail, fSubject, fMessage)=>{
+		    // instantiate a headers object
+		    var myHeaders = new Headers();
+		    // add content type header to object
+		    myHeaders.append("Content-Type", "application/json");
+		    // using built in JSON utility package turn object to string and store in a variable
+		    var raw = JSON.stringify({"fName":fName,"fEmail":fEmail,"fSubject":fSubject,"fMessage":fMessage});
+		    // create a JSON object with parameters for API call and store in a variable
+		    var requestOptions = {
+			method: 'POST',
+			headers: myHeaders,
+			body: raw,
+			redirect: 'follow'
+		    };
+		    // make API call with parameters and use promises to get response
+		    fetch("https://6kkouuj2dk.execute-api.us-east-2.amazonaws.com/dev", requestOptions)
+		    .then(response => response.text())
+		    .then(result => alert(JSON.parse(result).body))
+		    .catch(error => console.log('error', error));
+		}
+	    </script>
 	</head>
 	<body class="is-preload">
 
@@ -94,19 +117,19 @@
 									<div>
 										<div class="row">
 											<div class="col-6 col-12-medium">
-												<input type="text" name="name" placeholder="Name" />
+												<input type="text" name="name" placeholder="Name" id="fName"/>
 											</div>
 											<div class="col-6 col-12-medium">
-												<input type="text" name="email" placeholder="Email" />
+												<input type="text" name="email" placeholder="Email" id="fEmail" />
 											</div>
 											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
+												<input type="text" name="subject" placeholder="Subject" id="fSubject" />
 											</div>
 											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
+												<textarea name="message" placeholder="Message" rows="6" id="fMessage"></textarea>
 											</div>
 											<div class="col-12">
-												<input type="submit" value="Send Message" />
+												<input type="submit" value="Send Message" onclick="callAPI(document.getElementById('fName').value, document.getElementById('fEmail').value , document.getElementById('fSubject').value, document.getElementById('fMessage').value)"/>
 											</div>
 										</div>
 									</div>
